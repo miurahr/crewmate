@@ -1,6 +1,11 @@
 # Crewmate
 
-[![Build Status](https://travis-ci.org/crewmate/crewmate.png?branch=master)](https://travis-ci.org/crewmate/crewmate) [![Code Climate](https://codeclimate.com/github/crewmate/crewmate.png)](https://codeclimate.com/github/crewmate/crewmate) [![Code Coverage](https://codeclimate.com/github/crewmate/crewmate/coverage.png)](https://codeclimate.com/github/crewmate/crewmate) [![Dependency Status](https://gemnasium.com/crewmate/crewmate.png)](https://gemnasium.com/crewmate/crewmate) [![Stories in Ready](https://badge.waffle.io/crewmate/crewmate.png?label=Ready)](http://waffle.io/crewmate/crewmate)
+[![Build Status](https://travis-ci.org/crewmate/crewmate.png?branch=master)](https://travis-ci.org/crewmate/crewmate)
+[![Code Climate](https://codeclimate.com/github/crewmate/crewmate.png)](https://codeclimate.com/github/crewmate/crewmate)
+[![Code Coverage](https://codeclimate.com/github/crewmate/crewmate/coverage.png)](https://codeclimate.com/github/crewmate/crewmate)
+[![Dependency Status](https://gemnasium.com/crewmate/crewmate.png)](https://gemnasium.com/crewmate/crewmate)
+[![Stories in Ready](https://badge.waffle.io/crewmate/crewmate.png?label=Ready)](http://waffle.io/crewmate/crewmate)
+[![Gitter chat](https://badges.gitter.im/crewmate/crewmate.png)](https://gitter.im/crewmate/crewmate)
 
 Crewmate is a project management software, a community fork of [Teambox v3](https://github.com/teambox/teambox), built on Ruby on Rails with a focus on collaboration.
 
@@ -36,7 +41,7 @@ Thanks to the many Ruby projects we're using and the Famfamfam icon collection.
 Community
 ---------
 
-Join us in our IRC channel (#crewmate on Freenode) to discuss the project.
+Join us in our [GITTER](https://gitter.im/crewmate/crewmate) channel to discuss the project.
 
 
 What's new in this fork?
@@ -51,7 +56,7 @@ What's new in this fork?
 - Option to set organization as default for all new users; every newly signed user will be automatically added to all default organizations as participant (i.e. will be able to create new projects).
 - Support for Google Analytics tracking.
 
-### Bug fixies 
+### Bug fixies
 - Used [fixed](https://github.com/davidmm/immortal) gem Immortal that works correctly with PostgreSQL etc.
 - Fixed OAuth authentication controller for Google (see [this page](https://teambox.com/projects/teambox/conversations/76950)).
 - Fixed broken processing of incoming e-mail attachments and multipart messages (thanks to [mrtorrent](https://github.com/mrtorrent/teambox/commit/74d9204b1fa0d5f18180b09f8d6d19ce49a16d7f) for the first part). Added filter that removes attachments of unwanted MIME type. That's for removing S/MIME signature files which are useless in Teambox.
